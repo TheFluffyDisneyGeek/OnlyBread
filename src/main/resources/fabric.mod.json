@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "onlybread",
+  "version": "${version}",
+  "name": "onlybread",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/TheFluffyDisneyGeek/OnlyBread"
+  },
+  "license": "MIT",
+  "icon": "assets/onlybread/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.peiskos.onlybread.Onlybread"
+    ]
+  },
+  "mixins": [
+    "onlybread.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
